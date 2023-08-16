@@ -23,7 +23,6 @@ int main() {
 	// Actuation Phase
 	const auto lap_1 = high_resolution_clock::now();
 	for (const auto& [motor_index, angle] : solution.get_commands()) {
-		cout << "motor_" << motor_index << '.'; //delete
 		motor[motor_index].move(angle);
 	}
 	
