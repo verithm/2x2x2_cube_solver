@@ -5,19 +5,7 @@ solution, and turns the cube to solve it. Runs on a Raspberry Pi driving two
 stepper motors.
 
 The whole loop is here — perception, search, and actuation — and the program
-reports how long each phase took.
-
-```
-    2x2x2 Cube Solver
--------------------------
- Move Count     :      9
-
- Scan Time      :   6.31
- Search Time    :   0.42
- Actuation Time :  11.87
--------------------------
- Total Time     :  18.60
-```
+reports the move count along with how long each of the three phases took.
 
 ---
 
